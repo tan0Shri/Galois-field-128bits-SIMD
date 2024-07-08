@@ -1,5 +1,6 @@
 # Galois-field-128-bits-
 -----------Multiplication in GF(2^128) field-------------
+
 Implemented :
   1. (carryless_karatsuba.h): a carry-less Karatsuba multiplication algorithm  using carry-less multiplication instructions (called PCLMULQDQ) for multiplyting two binary polynomials of degree 127 (i.e, two 128 bits binary numbers) and
   2. (FastReduction.h): Fast reduction algorithm for reducing a binary polynomial of degree 254 (basically the carry-less multiplication result of above), modulo the x^128+x^7+x^2+x+1 (which deﬁnes the ﬁnite ﬁeld of the Galois Counter Mode)) in GF(2^128) field.

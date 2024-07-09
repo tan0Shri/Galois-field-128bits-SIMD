@@ -8,6 +8,6 @@ Implemented :
 * To refer to the documentation or details of the two algorithms I have implemented, please consult the file named "1-s2.0-S002001901000092X-main.pdf".
 * I have implemented the two algorithms using SIMD instructions (Intel intrinsics).
 * Compilation flags: gcc -o main main.c -msse -mpclmul
-* Note, provide 16 bytes long hex numbers as inputs for elements of field GF(2^128). 
+* Note, provide 16 bytes long hex numbers as inputs for elements of field GF(2^128) and start putting your number from LSB.
 
      
